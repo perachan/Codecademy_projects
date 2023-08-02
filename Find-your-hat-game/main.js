@@ -47,7 +47,8 @@ class Field {
     newField[0][0] = pathCharacter; // mark the starting path
     newField[hatX][hatY] = hat;     // mark the hat 
 
-    
+    // random the holes
+    const amountOfHoles = Math.round(height*width*percentageOfHoles/100);
 
     
   }
